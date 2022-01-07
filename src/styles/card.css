@@ -1,0 +1,47 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.904);
+    width: fit-content;
+    align-items: center;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 10px;
+    box-shadow: 1px 4px 8px black;
+    transition: all 0.4s;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.IMG{
+    width: 150px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    width: 230px;
+}
+
+.rowvali{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 2px;
+    padding: 4px;
+    justify-content: space-around;
+    background-color: rgb(206 206 206 / 86%);
+    border-radius: 10px;
+}
+
+.columnS{
+    display: flex;
+    flex-direction: column;
+}
+

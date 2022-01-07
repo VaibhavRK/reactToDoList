@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(79, 188, 231, 0.966);
+}
+
+.Title{
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 4px 4px 6px rgb(41, 39, 39);
+}
+
+.allcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
