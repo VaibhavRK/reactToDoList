@@ -6,7 +6,11 @@ const BioData = createContext();
 function ComA() {
 
     return (
-        <BioData.Provider value={"Yo yo Dude man","This is 2nd string"}>
+        <BioData.Provider value={{
+            fname:"Vaibhav",
+            lname:"Gupta",
+            Career:"React Js"
+        }}>
            <ComB />
         </BioData.Provider>
     )

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 // import Accordian from './components/accordian/Accordian';
 // import BasicForm from './components/forms/BasicForm';
 // import App from './App';
-// import NewApp from './components/ReactRouter/NewApp';
+import NewApp from './components/ReactRouter/NewApp';
 // import ArrayState from './components/ArrayState';
 // import Practice from './components/Practice.js';
 // import UseStateObject from './components/UseStateObject';
@@ -15,10 +15,12 @@ import ReactDOM from 'react-dom';
 // import ComA from './components/context/ComA';
 
 import ToDoList from './components/forms/ToDoList';
-// import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 
 
 ReactDOM.render(
+  <BrowserRouter>
   <ToDoList />
+  </BrowserRouter>
   , document.getElementById('root')
 );

@@ -32,13 +32,13 @@ const NewApp = () =>{
             <Route exact path='/search' component={Search} />
             <Route exact path='/user/:name' component={User} />
             <Route path='/user/:name/:lname' component={User} />
-            <Route exact path='/contact' component={<Contact />} />
+            <Route exact path='/contact' component={Contact} />
             {/* <Route path='/contact/:name' component={<Contact />} /> */}
             <Route component={Error} /> 
           </Switch>
           <button onClick={changeMode}>Change Mode</button>
         </div>
-    )
+    );
 }
 
 export default NewApp;

@@ -87,7 +87,7 @@ function ToDoList() {
 
 
     return (
-       <div className='body1'>
+       <div className='ListApp'>
            <div className='container'>
              <CgNotes size={50} color='yellow' />
              <h2 style={{color:'white',marginTop:5,marginBottom:-10}} >ToDo List</h2>
